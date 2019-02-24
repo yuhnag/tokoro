@@ -13,7 +13,7 @@ csv         = require 'csv-parser'
 djb         = require '../src/lib/djb'
 iconv       = new Iconv 'SHIFT_JIS', 'UTF-8//TRANSLIT//IGNORE'
 
-VERSION  = '12.0a'
+VERSION  = '16.0a'
 BASE_URL = "http://nlftp.mlit.go.jp/isj/dls/data/#{ VERSION }"
 
 max_djb = 0
